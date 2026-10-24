@@ -1,42 +1,94 @@
+![FNF vs Haruka Header](assets/images/storymenu/props/menu_weekharuka2.png)
+
+<h1 align="center">FNF vs Haruka: Web Build</h1>
+
 <p align="center">
-  <img src="assets/images/storymenu/props/menu_weekharuka2.png" alt="Ordinary Attack 2 title card with Haruka" width="100%">
+  <a href="https://github.com/smiledemic/fnf-vs-haruka">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+  </a>
+  <a href="https://github.com/smiledemic/fnf-vs-haruka/stargazers">
+    <img src="https://img.shields.io/github/stars/smiledemic/fnf-vs-haruka?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/smiledemic/fnf-vs-haruka/forks">
+    <img src="https://img.shields.io/github/forks/smiledemic/fnf-vs-haruka?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/smiledemic/fnf-vs-haruka/issues">
+    <img src="https://img.shields.io/github/issues/smiledemic/fnf-vs-haruka?style=for-the-badge&logo=github&color=red" alt="GitHub Issues">
+  </a>
 </p>
 
-# FNF vs Haruka
+<p align="center">
+  A browser-playable build of the <strong>Haruka</strong> mod for <strong>Friday Night Funkin'</strong> (V-Slice), built by <a href="https://github.com/smiledemic">smiledemic</a>.
+</p>
 
-A web build of a **Friday Night Funkin' (V-Slice)** mod featuring Haruka. Play it straight in your browser, with no download and no install.
+<p align="center">
+  <a href="https://smiledemic.github.io/fnf-vs-haruka/">Play</a> •
+  <a href="https://gamebanana.com/mods/651981">Original Mod</a> •
+  <a href="https://github.com/FunkinCrew/Funkin">Friday Night Funkin'</a>
+</p>
 
-### ▶ [Play it here](https://smiledemic.github.io/fnf-vs-haruka/)
+<p align="center">
+  <a href="https://smiledemic.github.io/fnf-vs-haruka/"><img src="https://img.shields.io/badge/▶_Play-In_Your_Browser-2ea44f?style=for-the-badge" alt="Play in your browser"></a>
+</p>
 
-Click the page once after it loads so your browser allows sound, then use the menu.
+## About
 
-## What's in it
+FNF vs Haruka is a V-Slice mod for Friday Night Funkin'. Face Haruka as Boyfriend, with Girlfriend on the speakers.
 
 | Week | Songs |
 |---|---|
 | vs haruka | Ordinary Attack |
 | vs haruka Revenge! | Ordinary Attack 2 |
 
-- **Characters:** Boyfriend, Girlfriend and Haruka
-- Ordinary Attack has Easy, Normal and Hard difficulties.
-
 ## Controls
 
-Default Friday Night Funkin' controls. You can change them in **Options**.
+Default Friday Night Funkin' controls, which you can change in **Options**.
 
-- **Notes:** arrow keys or WASD
-- **Select / back:** Enter / Esc
+| Action | Keys |
+|---|---|
+| Notes | Arrow keys or WASD |
+| Select | Enter |
+| Back | Esc |
 
-## Browser notes
+## Notes
 
-- Browsers block sound until you click or press a key on the page.
+- Click the page once after it loads so your browser allows sound.
 - The first load of a song can take a moment on a slow connection.
-- Hard refresh (**Ctrl + Shift + R**) if you don't see the latest update.
-- This is a web build, so features that need a desktop (such as the mods menu and some video playback) may be missing.
+- Hard refresh with **Ctrl + Shift + R** if you don't see the latest update.
+- This is a web build, so desktop-only features such as the mods menu may be missing.
 
-## Run it locally
+## Credits
 
-You need [Node.js](https://nodejs.org/). In this folder, run:
+| Contributor | Contribution |
+|---|---|
+| **[HARUKAFNF](https://gamebanana.com/mods/651981)** | Original mod. Credited as artist and charter in the song data. |
+| **[smiledemic](https://github.com/smiledemic)** | Web build and hosting. |
+| **The Funkin' Crew** | [Friday Night Funkin'](https://github.com/FunkinCrew/Funkin) and the V-Slice engine. |
+
+Built with [Haxe](https://haxe.org/), [HaxeFlixel](https://haxeflixel.com/), [OpenFL](https://www.openfl.org/) and [Lime](https://lime.openfl.org/).
+
+## Project Structure
+
+```text
+fnf-vs-haruka/
+├── assets/
+├── flixel/
+├── manifest/
+├── index.html
+├── Funkin.js
+├── favicon.png
+├── LICENSE.md
+├── CHANGELOG.md
+└── README.md
+```
+
+This repository holds the compiled HTML5 output, not the game source.
+
+## Hosting
+
+The site is served with GitHub Pages from the root of the `main` branch.
+
+To run it locally you need [Node.js](https://nodejs.org/). In the repository folder, run:
 
 ```
 npx http-server . -p 8080 -c-1
@@ -44,15 +96,13 @@ npx http-server . -p 8080 -c-1
 
 Then open `http://127.0.0.1:8080`.
 
-## Credits
+## Ownership
 
-- **Mod by [HARUKAFNF](https://gamebanana.com/mods/651981)**, credited as the artist and charter in the song data
-- **Web build by [smiledemic](https://github.com/smiledemic)**
-- **[Friday Night Funkin'](https://github.com/FunkinCrew/Funkin)** by The Funkin' Crew
-- Built with [Haxe](https://haxe.org/), [HaxeFlixel](https://haxeflixel.com/), [OpenFL](https://www.openfl.org/) and [Lime](https://lime.openfl.org/)
+Friday Night Funkin' belongs to The Funkin' Crew, and the Haruka mod belongs to its creator. This is an unofficial, non-commercial fan project and is not affiliated with or endorsed by either. See `LICENSE.md` for the game's license terms. If you are a rights holder and want something taken down, open an issue and it will be removed.
 
-See `LICENSE.md` for the game's license terms.
+---
 
-## Disclaimer
-
-This is an unofficial, non-commercial fan project. It is not affiliated with or endorsed by The Funkin' Crew. All music, characters and artwork belong to their respective owners. If you are a rights holder and want something taken down, open an issue and it will be removed.
+<p align="center">
+  <strong>FNF vs Haruka Browser Edition</strong><br>
+  wasm.rip | ankomstudios | smiledemic | the unblocked initative
+</p>
